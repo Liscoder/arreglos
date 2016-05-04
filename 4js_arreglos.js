@@ -11,7 +11,7 @@ for(var i=0; i<valores.length;i++){
 		}
 }
 	console.log(nueva);
-for(j=0;j<=nueva.length-1;j++){
+for(j=0;j<nueva.length-1;j++){
 		if(nueva[j+1].length>nueva[j].length){
 			mayor=nueva[j+1];
 			document.write("EL valor mayor: "+nueva[j+1]);
